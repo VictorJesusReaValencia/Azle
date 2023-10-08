@@ -1,0 +1,7 @@
+service: () -> {
+    ExperienciaUsuaio: (variant {Emotion:variant {Sad; Indifferent; Happy}; Fire; ThumbsUp}) -> (variant {Emotion:variant {Sad; Indifferent; Happy}; Fire; ThumbsUp}) query;
+    calcularInteres: (vec nat8) -> (vec nat8) query;
+    getFinancialReaction: () -> (variant {Emotion:variant {Sad; Indifferent; Happy}; Fire; ThumbsUp}) query;
+    imprimirSaldos: () -> (bool) query;
+    obtenerHistorialCuentaAhorros: () -> (vec nat8) query;
+}
